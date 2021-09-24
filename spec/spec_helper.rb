@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'omniauth/microsoft_graph_auth'
+require 'omniauth/microsoft_graph'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
