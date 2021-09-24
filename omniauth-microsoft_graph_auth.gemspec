@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/microsoft_graph/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'omniauth-microsoft_graph'
+  spec.name          = 'omniauth-microsoft_graph_auth'
   spec.version       = OmniAuth::MicrosoftGraph::VERSION
   spec.authors       = ['Magomed Saipudinov']
   spec.email         = ['saipudinov.magomed@gmail.com']
 
-  spec.summary       = 'Omniauth::MicrosoftGraph'
-  spec.description   = 'Omniauth::MicrosoftGraph'
-  spec.homepage      = 'https://github.com/andiskiy/omniauth-microsoft_graph'
+  spec.summary       = 'OmniAuth::MicrosoftGraph'
+  spec.description   = 'OmniAuth::MicrosoftGraph'
+  spec.homepage      = 'https://github.com/potokk/omniauth-microsoft_graph_auth'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = 'https://github.com/andiskiy/omniauth-microsoft_graph'
-    spec.metadata['changelog_uri'] = 'https://github.com/andiskiy/omniauth-microsoft_graph'
+    spec.metadata['source_code_uri'] = 'https://github.com/potokk/omniauth-microsoft_graph_auth'
+    spec.metadata['changelog_uri'] = 'https://github.com/potokk/omniauth-microsoft_graph_auth'
   else
     raise 'RubyGems 2.0 or newer is required to protect against public gem pushes.'
   end
